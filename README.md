@@ -4,9 +4,15 @@ Trabalho de Interação Humano-Robô (IHR) apresentado ao Centro Universitário 
 
 ## Componentes do Grupo
 
-- Nome Componente 1
-- Nome Componente 2
-- Nome Componente 3
+- Thomas Ay Casa Grande
+- Rafael Felix Rovina
+- Enzo Figari Guillaumon
+- Enzo Rodrigues Tofoli
+- Gustavo Rodrigues Santos
+- Matheus Kenji 
+
+## Pensamentos - plateia - personas (apresentadores e plateia) - vai ter uma camera global e vai ter microfone para comunicação verbal (barulho de rato?)
+
 
 ## Resumo
 
