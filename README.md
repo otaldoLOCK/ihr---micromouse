@@ -16,27 +16,119 @@ Trabalho de Interação Humano-Robô (IHR) apresentado ao Centro Universitário 
 
 ## Resumo
 
-Apresente uma breve descrição do seu robô e sua aplicação (tarefa que ele irá resolver).
+O projeto propõe a utilização de um robô Micromouse adaptado para fins de interação humano-robô (IHR). Tradicionalmente desenvolvido para resolver labirintos em competições, o Micromouse neste contexto assume uma função lúdica e educativa, aproximando o público dos conceitos de robótica e automação. A aplicação contará com uma câmera global, responsável por acompanhar os movimentos do robô e transmitir sua visão em tempo real para a plateia, além de um sistema de áudio que permitirá tanto a emissão de sons característicos de um rato (guinchos ou ruídos curtos), quanto a recepção de estímulos verbais ou sonoros da plateia. Dessa forma, o robô torna-se capaz de interagir diretamente com o público, reforçando a proposta de engajamento.
+
+A dinâmica da apresentação envolve duas personas principais: os apresentadores, responsáveis por conduzir a explicação técnica e contextualizar o funcionamento do robô, e a plateia, que poderá interagir por meio de comandos simples ou estímulos sonoros. Essa configuração transforma o Micromouse em uma ferramenta de demonstração participativa, ampliando seu valor além da competição tradicional.
+
+Em termos construtivos, o robô possui uma estrutura mecânica compacta e leve, adequada para movimentos ágeis em espaços delimitados. Seu sistema de locomoção diferencial, composto por dois motores independentes, garante precisão no deslocamento e nas curvas. O robô também é equipado com sensores de proximidade para identificar obstáculos, um módulo de processamento embarcado para controle de movimento e interpretação de dados, além da interface de interação formada por microfone e atuadores sonoros. Esses elementos garantem não apenas a execução de tarefas de navegação, mas também a capacidade de comunicação e resposta a estímulos externos.
+
+Assim, o Micromouse deixa de ser apenas um robô de exploração de labirintos e se apresenta como uma plataforma interativa, educativa e envolvente, promovendo maior aproximação entre tecnologia, ciência e sociedade.
 
 ## Introdução
 
-- Apresente uma contextualização para o problema que o seu robô irá resolver e por quê esse tipo de robô é necessário hoje na sociedade.
-- Apresente uma breve descrição do seu robô e sua aplicação (tarefa que ele irá resolver).
-- Em uma única frase, resuma o objetivo do seu robô.
-- Que tipo de experiência o robô deve proporcionar para os usuários?
+A interação humano-robô (IHR) vem se consolidando como um campo fundamental no desenvolvimento de tecnologias voltadas não apenas para a automação de tarefas, mas também para a comunicação, educação e engajamento social. Em um contexto onde a robótica está cada vez mais presente no cotidiano, é essencial criar soluções que despertem o interesse do público em geral, promovendo a compreensão de conceitos técnicos de forma acessível e lúdica. Nesse sentido, robôs que interagem diretamente com pessoas tornam-se ferramentas valiosas para divulgação científica, ensino de tecnologia e aproximação entre sociedade e inovação.
 
+O robô desenvolvido neste projeto é baseado no conceito do Micromouse, tradicionalmente utilizado em competições de exploração de labirintos. Contudo, sua aplicação foi adaptada para um contexto interativo, no qual ele se torna uma plataforma de demonstração capaz de se comunicar com o público. O robô conta com locomoção autônoma em ambientes delimitados, sensores de proximidade para detecção de obstáculos, uma câmera global para acompanhamento de seus movimentos e um sistema de áudio que possibilita tanto a emissão de sons característicos de um rato quanto a recepção de estímulos verbais ou sonoros. Dessa forma, ele transforma uma aplicação originalmente competitiva em uma experiência educativa e envolvente.
+
+O objetivo central do robô é: proporcionar uma experiência interativa e lúdica que aproxime o público da robótica por meio da exploração autônoma e da comunicação sonora.
+
+Para os usuários, a experiência oferecida deve ser de curiosidade, engajamento e aprendizado prático, despertando interesse em tecnologia e ciência através de uma interação divertida, acessível e memorável.
 ## Publico Alvo
 
-- Determine o seu público alvo:
+- Determine o seu público alvo: Plateia e Apresentador 
 
 ### Personas
 
-- Descreva as personas que irão interagir com o robô. Deixe claro suas principais caracteristicas e contextos sociais, econômicos e culturais.
-- Quais informações sobre o usuário o robô deve saber antes de iniciar a tarefa?
+*Persona Primária – Integrante da Plateia*
 
-  - Persona primaira ...
-  - Persona secundária ...
-  - Outras personas ...
+*O que o usuário vê*
+
+* Um auditório ou espaço de apresentação.
+* O robô micromouse se movimentando de forma demonstrativa.
+* Os apresentadores conduzindo a atividade.
+* Outros espectadores reagindo com entusiasmo, curiosidade ou distração.
+* A câmera global transmitindo a visão geral em uma tela.
+
+*O que o usuário ouve*
+
+* A voz dos apresentadores explicando o funcionamento do robô.
+* Reações da plateia (risadas, comentários, aplausos).
+* Sons do robô: motores, rodinhas e eventualmente efeitos sonoros (como barulho de rato).
+* Sons ambiente do auditório.
+
+*O que o usuário diz e faz*
+
+* Comenta com colegas ao lado (“Nossa, ele é rápido!”, “Será que vai fazer mais alguma coisa?”).
+* Ri ou reage às falhas/diversões.
+* Usa o celular para filmar/fotografar o robô.
+* Acompanha atentamente a demonstração.
+
+*O que o usuário pensa e sente*
+
+* Curiosidade sobre como o robô funciona.
+* Surpresa e expectativa a cada movimento.
+* Desejo de se divertir com a experiência.
+* Admiração pela tecnologia aplicada em algo lúdico.
+* Sente-se engajado quando há interação direta (perguntas, brincadeiras, sons).
+
+*Dores*
+
+* Pode se sentir entediada se a apresentação for lenta ou pouco envolvente.
+* Dificuldade de enxergar/acompanhar se não houver boa visibilidade.
+* Frustração caso o robô não funcione bem (travando, não respondendo).
+
+*Ganhos*
+
+* Experiência divertida e memorável.
+* Aprende de forma leve sobre robótica.
+* Satisfação em ver o robô funcionando corretamente.
+* Entretenimento coletivo (dividir reações com os outros).
+
+
+
+*Persona Secundária - Apresentador*
+
+*O que o usuário vê*
+
+* O público observando e reagindo.
+* O micromouse em funcionamento demonstrativo.
+* Os colegas apresentadores ajudando na condução.
+* A câmera global e o microfone captando a cena.
+
+*O que o usuário ouve*
+
+* Murmúrios, risadas e comentários da plateia.
+* Sons do robô (movimento, barulho de rato se houver).
+* Feedback de colegas (sussurros, instruções rápidas).
+* O retorno do próprio microfone.
+
+*O que o usuário diz e faz*
+
+* Explica o funcionamento do robô de forma clara.
+* Faz piadas ou comentários para engajar a plateia.
+* Incentiva o público a prestar atenção ou reagir.
+* Coordena o início da demonstração.
+* Responde perguntas feitas pelo público.
+
+*O que o usuário pensa e sente*
+
+* Ansiedade em manter a apresentação interessante.
+* Orgulho em mostrar o projeto funcionando.
+* Preocupação com possíveis falhas do robô.
+* Confiança crescente à medida que percebe a reação positiva da plateia.
+
+*Dores*
+
+* Estresse caso o robô apresente erros ou pare de funcionar.
+* Dificuldade em prender a atenção do público por muito tempo.
+* Preocupação em transmitir informações técnicas de forma acessível.
+
+*Ganhos*
+
+* Satisfação ao ver o público engajado.
+* Reconhecimento pelo esforço e dedicação ao projeto.
+* Orgulho em apresentar algo inovador de forma lúdica.
+* Experiência em comunicação e interação humano-robô.
 
 ### Mapa de empatia
 
