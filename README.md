@@ -145,9 +145,21 @@ Para os usuários, a experiência oferecida deve ser de curiosidade, engajamento
 
 ## Contexto de uso
 
-- Descreva o ambiente em que o robô interage com os usuários
-- Qual/quais o(s) contexto(s) sociais, econômicos e culturais existentes neste ambiente?
-- Quais informações sobre o ambiente o robô deve saber antes de iniciar a tarefa?
+O robô será utilizado em ambientes de apresentação e demonstração, como feiras de ciência, eventos acadêmicos, salas de aula e atividades de divulgação tecnológica. Nesses espaços, a interação entre pessoas e robôs desempenha um papel fundamental para despertar a curiosidade do público e aproximar conceitos complexos de robótica de forma prática e divertida. O ambiente é projetado de maneira controlada, geralmente com um espaço delimitado semelhante a um pequeno labirinto ou arena, onde o Micromouse pode se movimentar com segurança.
+
+O contexto social, econômico e cultural está fortemente associado à popularização da tecnologia e da robótica como ferramentas de aprendizado. Em um cenário em que a sociedade busca constantemente soluções inovadoras, o robô cumpre uma função educativa, estimulando o interesse de crianças, jovens e adultos em ciência, engenharia e programação. Do ponto de vista cultural, sua aplicação promove a democratização do acesso ao conhecimento tecnológico, permitindo que diferentes perfis de público tenham contato direto com conceitos de automação de forma lúdica e acessível. Do ponto de vista econômico, iniciativas como essa contribuem para formar futuros profissionais capacitados em áreas de alta demanda, como tecnologia e inovação.
+
+Antes de iniciar a tarefa, o robô deve possuir informações básicas sobre o ambiente, incluindo:
+
+Delimitação da área de atuação, evitando ultrapassar limites de segurança.
+
+Posição inicial de onde será iniciado o percurso.
+
+Presença e disposição de obstáculos que possam interferir na navegação.
+
+Condições de iluminação e captação sonora, garantindo que a câmera global e o microfone funcionem adequadamente durante a interação.
+
+Com esses elementos, o robô consegue realizar sua função de forma autônoma e interativa, proporcionando ao público uma experiência segura e envolvente.
 
 ## Jornada do usuário
 
