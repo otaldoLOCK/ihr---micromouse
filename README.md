@@ -41,13 +41,19 @@ Para os usuários, a experiência oferecida deve ser de curiosidade, engajamento
 
 *Persona Primária – Integrante da Plateia*
 
+*Nome:* Lucas Andrade
+*Idade:* 19 anos
+*Ocupação:* Estudante do 1º ano de Engenharia Mecatrônica
+*Local:* São Paulo – SP
+*Perfil:* Jovem curioso, entusiasmado por tecnologia e ciência, gosta de descobrir como as coisas funcionam. Costuma ir a feiras, workshops e apresentações ligadas a inovação e robótica. Está sempre com o celular na mão para registrar e compartilhar momentos interessantes.
+
 *O que o usuário vê*
 
 * Um auditório ou espaço de apresentação.
 * O robô micromouse se movimentando de forma demonstrativa.
 * Os apresentadores conduzindo a atividade.
 * Outros espectadores reagindo com entusiasmo, curiosidade ou distração.
-* A câmera global transmitindo a visão geral em uma tela.
+* A câmera global captando a visão geral da plateia.
 
 *O que o usuário ouve*
 
@@ -58,7 +64,7 @@ Para os usuários, a experiência oferecida deve ser de curiosidade, engajamento
 
 *O que o usuário diz e faz*
 
-* Comenta com colegas ao lado (“Nossa, ele é rápido!”, “Será que vai fazer mais alguma coisa?”).
+* Comenta com colegas ao lado.
 * Ri ou reage às falhas/diversões.
 * Usa o celular para filmar/fotografar o robô.
 * Acompanha atentamente a demonstração.
@@ -73,7 +79,7 @@ Para os usuários, a experiência oferecida deve ser de curiosidade, engajamento
 
 *Dores*
 
-* Pode se sentir entediada se a apresentação for lenta ou pouco envolvente.
+* Pode se sentir entediado se a apresentação for lenta ou pouco envolvente.
 * Dificuldade de enxergar/acompanhar se não houver boa visibilidade.
 * Frustração caso o robô não funcione bem (travando, não respondendo).
 
@@ -86,7 +92,13 @@ Para os usuários, a experiência oferecida deve ser de curiosidade, engajamento
 
 
 
-*Persona Secundária - Apresentador*
+*Persona Primária - Apresentador*
+
+Nome fictício: Marina Souza
+Idade: 24 anos
+Ocupação: Estudante de Pós-Graduação / Integrante da equipe de robótica (responsável pela apresentação e demonstração)
+Local: São Bernardo do Campo – SP
+Perfil: Comunicadora curiosa e técnica; gosta de ensinar e de transformar conceitos complexos em demonstrações interessantes. Tem experiência em workshops e apresentações acadêmicas, mas ainda sente certo nervosismo com imprevistos técnicos.
 
 *O que o usuário vê*
 
@@ -169,6 +181,189 @@ Com esses elementos, o robô consegue realizar sua função de forma autônoma e
   - Descreva o que acontece ou pode acontecer passo a passo
   - Como a tarefa começa? Como a tarefa evolui? Como a tarefa termina?
 - Enfatize todos os momentos em que acontece uma interação verbal, não-verbal e espacial.
+
+# Jornada de usuário — Micromouse IHR
+
+> Versão formatada para GitHub (trecho solicitado)
+
+---
+
+## 1) Preparação / Configuração (pré-evento)
+
+**Ambiente**
+
+* Palco/área com iluminação uniforme.
+* Câmera global apontada para a plateia (campo de visão pré-definido).
+* Microfone do ambiente testado.
+* Robô na doca.
+* Telão opcional exibindo instruções e área válida de gestos (overlay).
+
+**Passos**
+
+1. Marina liga o sistema: painel mostra `READY`.
+2. Equipe realiza calibração rápida da câmera (detecção de mãos, zoneamento) e do microfone (nível de ruído).
+3. Robô executa sinal de "pronto" (LED, som curto).
+
+**Interações**
+
+* **Não-verbal (espacial):** marcar no chão a “zona de segurança” e a “zona de interação” para a plateia.
+* **Verbal:** comunicação interna da equipe (“calibrei”, “go”).
+* **Importante:** registrar modo fallback (demo/manual) ativo.
+
+---
+
+## 2) Abertura / Introdução (primeiro contato)
+
+**Como começa**
+
+* Marina apresenta o Micromouse: função, “personalidade” e como interagir (gestos válidos, palmas, palavras-chave).
+
+**Ambiente**
+
+* Telão mostra instruções curtas; câmera sobre a plateia exibe retângulos/overlay em tempo real indicando onde gestos serão detectados.
+
+**Passos**
+
+1. Marina explica e demonstra: ela faz o gesto (p.ex. aceno) e a câmera exibe a detecção no telão.
+2. Público observa; alguns (como Lucas) testam com palmas/levantar a mão.
+
+**Interações**
+
+* **Verbal:** Marina diz “Aplaudam ou acenem para chamar o robô!”.
+* **Não-verbal:** plateia faz palmas/acenos; a câmera detecta e destaca quem gesticulou.
+* **Espacial:** o robô inicia na doca; quando um gesto é identificado, ele calcula um ponto alvo na área de atuação e realiza aproximação segura.
+
+**Resultado esperado**
+
+* Primeiro reconhecimento → robô responde com movimento curto + som + LED.
+
+---
+
+## 3) Convite à interação (instruções / engajamento inicial)
+
+**Objetivo**
+
+* Engajar múltiplas pessoas, mostrar variações de entrada (palmas vs aceno vs voz).
+
+**Ambiente**
+
+* Overlay no telão mostra ícones de gesto reconhecido; painel do apresentador indica qual comando foi reconhecido.
+
+**Passos**
+
+1. Marina convida grupos da plateia a testar diferentes comandos (ex.: palmas = andar; aceno = virar; grito = brincar).
+2. Câmera identifica áreas ativas e envia rótulo do gesto ao módulo de decisão.
+3. Robô confirma recebimento com bip curto + LED e executa ação.
+
+**Interações (destacadas)**
+
+* **Verbal:** Marina orienta e faz perguntas rápidas (“Quem conseguiu acenar?”).
+* **Não-verbal:** plateia usa celulares para gravar; expressão coletiva de validação (risos).
+* **Espacial:** robô aproxima-se até a “zona de interação” sem cruzar a barreira de segurança.
+
+**Fallback**
+
+* Caso a câmera não detecte bem (p.ex. pouca luz), Marina aciona modo manual: botão no controle concede comando direto.
+
+---
+
+## 4) Loop de interação (ciclo contínuo)
+
+**Descrição**
+
+* Ciclo repetitivo: plateia emite estímulos → sistema reconhece → robô age → público reage → repetição.
+
+**Fluxo técnico simplificado**
+
+1. **Detecção** (câmera: gesto / microfone: som)
+2. **Classificação** (modelo decide qual comando corresponde)
+3. **Planejamento** (decisão do movimento / som / LED)
+4. **Execução** (robô realiza)
+5. **Feedback** (audível/visual)
+6. **Reação da plateia** (aplausos, risos) → volta ao 1
+
+**Interações**
+
+* **Verbal:** público comenta e faz perguntas entre ciclos; apresentador contextualiza tecnicamente por breves blocos.
+* **Não-verbal:** mudança de postura do público (mais perto/mais distante), filmagens.
+* **Espacial:** robô navega entre pontos de interesse (zona A → zona B), mantendo rota segura e evitando bordas/obstáculos.
+
+**Métricas visíveis**
+
+* Contador no painel: número de interações reconhecidas, taxa de sucesso.
+
+**Falha sensorial**
+
+* Ruído intenso → priorizar detecção de gestos visuais; telão mostra aviso “modo visual ativo”.
+
+---
+
+## 5) Clímax demonstrativo (sequência combinada)
+
+**Propósito**
+
+* Entregar uma sequência coreografada que une múltiplas entradas da plateia e mostra robustez (p.ex. coreografia de 4 passos acionada por 4 palmas de diferentes locais).
+
+**Ambiente**
+
+* Obstáculos temporários (blocos leves) montados para mostrar desvio/curva precisa; telão faz contagem regressiva.
+
+**Passos**
+
+1. Marina solicita colaboração coletiva (ex.: “em 3… 2… 1… palmas!”).
+2. A câmera detecta multiplicidade de entradas; o módulo combina sinais (votos) e decide comportamento especial.
+3. Robô executa sequência (movimentos precisos + som característico + LED em padrão).
+
+**Interações**
+
+* **Verbal:** contagem regressiva cria expectativa; Marina descreve o que vai acontecer.
+* **Não-verbal:** plateia participa em sincronia; muitos gravam.
+* **Espacial:** robô navega por mini-labirinto/coreografia evitando toque humano.
+
+**Se ocorrer falha**
+
+* Plano B: exibir gravação da sequência no telão e explicar tecnicamente por que a falha ocorreu.
+
+---
+
+## 6) Encerramento (despedida / call-to-action)
+
+**Como termina**
+
+* Robô volta à doca ou executa gesto de despedida; Marina faz agradecimentos e convida à interação pós-show.
+
+**Passos**
+
+1. Robô executa sinal de final (movimento recuado + som/LED).
+2. Marina agradece e convida para visitar a estação prática ou acessar material via QR code.
+3. Equipe disponibiliza rota segura para que interessados se aproximem (se permitido).
+
+**Interações**
+
+* **Verbal:** agradecimentos e instruções para o pós-evento.
+* **Não-verbal:** aplausos; selfies com o robô.
+* **Espacial:** robô é levado para área controlada onde o público pode testar sob supervisão.
+
+---
+
+## 7) Pós-evento (estações / análise)
+
+**Atividades**
+
+* Perguntas técnicas; demonstração do hardware por partes; logs de interação são analisados.
+
+**Passos**
+
+1. Equipe mostra dashboards (nº de interações, reconhecimento por tipo).
+2. Público experimenta o robô em modo supervisionado (com limites de movimento).
+3. Equipe anota melhorias e coleta feedback via formulário/QR.
+
+**Interações**
+
+* **Verbal:** conversas mais longas e técnicas; recrutamento/contato.
+* **Não-verbal:** manipulação direta do robô (em área segura).
+* **Espacial:** área com barreiras baixas para controle.
+
 
 ## Análise de concorrência
 
