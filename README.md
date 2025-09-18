@@ -371,6 +371,99 @@ Com esses elementos, o robô consegue realizar sua função de forma autônoma e
   - Existe plataforma diferente quanto ao serviço, mas que atenda esse mercado? Se sim: Quais os pontos positivos? Quais os pontos negativos?
   - Quais plataformas sua equipe acha mais interessantes? Qual a justificativa?
 
+Aqui está uma versão pronta de relatório para colocar no GitHub, com estilo formal, seção “Análise de concorrência”. Você pode colar direto no `README.md` ou em um documento de relatório.
+
+---
+
+## Análise de Concorrência
+
+### Robôs/plataformas examinados
+
+* **Pepper** (SoftBank Robotics) — robô humanoide social com múltiplos sensores, capacidade de reconhecimento de fala/voz, câmeras, microfone, base móvel, tela de 10,1", boa autonomia. ([Wevolver][1])
+* **NAO** (Aldebaran / SoftBank Robotics) — robô menor (cerca de 58 cm), focado em educação e pesquisas, com câmeras, microfones, sensores táteis, capaz de interagir com humanos, reconhecer vozes/sons, expressar gestos. ([PROVEN Robotics][2])
+* **Plataformas de evento / robôs performáticos** — robôs utilizados em shows, eventos ou exposições, com foco mais em presença, entretenimento visual e espetáculo, menos em navegação/detecção de gestos/voz com precisão técnica. (Não há um exemplo específico com todas as características técnicas idênticas ao Micromouse IHR, mas há muitos casos de uso semelhantes.)
+
+
+### Comparativo: Similaridades e diferenças com o Micromouse IHR
+
+| Critério                                                   | Como Pepper se compara                                                                                                              | Como NAO se compara                                                                                                                                                             | Como robôs de evento se comparam                                                                                                                           |
+| ---------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Mobilidade / navegação**                                 | Tem base móvel decente, sensores de proximidade, lasers, sonares etc., pode evitar obstáculos. ([Wevolver][1])                      | Menos robusto para grandes deslocamentos ou deslocamentos rápidos; mais adequado para espaço restrito e movimentos controlados. ([SoftBank Robotics America][3])                | Mobilidade frequentemente limitada ou pré-planejada; robôs de evento tendem a se mover pouco ou ficarem fixos; menos ênfase em sensação de navegação real. |
+| **Reconhecimento de gestos / som / interação com público** | Muito bom: câmeras HD, microfones múltiplos, sensores táteis, plataforma de reconhecimento e frameworks já maduros. ([Wevolver][1]) | Também bastante competente: reconhecimento de fala simples, detecção de rostos e expressões, mas pode depender de condições ambientais ideais. ([SoftBank Robotics America][3]) | Robôs de evento costumam depender mais de comandos pré-programados ou interações menos refinadas; reconhecimento pode ser limitado ou mediado manualmente. |
+| **Escalabilidade / custo / complexidade**                  | Alto custo, hardware avançado, manutenção exigente; bom para instituições com capacidade de investimento.                           | Menos caro que Pepper, mais acessível para educação / pesquisa; ainda assim há custos significativos de aquisição e manutenção.                                                 | Pode ser mais barato se for robô decorativo ou de espetáculo; menos exigente tecnicamente, porém menos adaptável a variações ou falhas automáticas.        |
+| **Expressividade e identidade**                            | Excelente: Pepper tem rosto simpático, LEDs, tela, fala; pode ser “carismático”.                                                    | NAO também expressivo; gestos mais humanos, fala, interação emocional possível.                                                                                                 | Robôs de evento podem focar no espetáculo, aparência, luzes, som, mas nem sempre têm identidade técnica ou educativa profunda.                             |
+
+
+### Pontos positivos e negativos — resumo
+
+**Pepper**
+
+* *Positivos:*
+  • Alta robustez em interação humano-robô (gestos, fala, expressão)
+  • Sensores múltiplos que facilitam percepção do ambiente e do público
+  • Plataforma madura, com SDKs, comunidade, casos de uso práticos
+* *Negativos:*
+  • Custo elevado (hardware, manutenção)
+  • Tamanho grande pode limitar mobilidade em espaços pequenos ou restritos
+  • Complexidade para customizar e garantir que tudo funcione sob diferentes condições (iluminação, ruído etc.)
+
+**NAO**
+
+* *Positivos:*
+  • Menor, mais manejável, bom para demonstrações educativas
+  • Bom equilíbrio entre expressividade e custo (comparado a Pepper)
+  • Utilização já comprovada em pesquisas educacionais, interação com público etc.
+* *Negativos:*
+  • Limitações de alcance de reconhecimento; em plateias maiores pode ter dificuldade de captar todos os gestos
+
+  • Menos autonomia de movimento ou menos robustez em obstáculos ou grandes deslocamentos
+
+  • Dependência de ambiente controlado para que reconhecimento de som/voz funcione bem
+
+**Robôs de evento / plataformas performáticas**
+
+* *Positivos:*
+  • Alto apelo visual, impacto imediato
+
+  • Muitos já têm experiência de ativar o público, show, espetáculo
+
+  • Pode ter custos mais baixos se não requerer alta sofisticação técnica
+
+* *Negativos:*
+  • Menos foco em educação ou em aprendizado técnico que se entenda como robótica
+
+  • Limitações no reconhecimento automático real de comandos gestuais ou verbais
+
+  • Possível dependência de operador humano para mediar as interações
+
+---
+
+### Qual plataforma se aproxima mais do ideal para o Micromouse IHR
+
+Com base nos objetivos do projeto — interação com plateia via gestos/sons, mobilidade ágil, demonstração educativa, identidade do robô — as plataformas mais interessantes para referência são:
+
+1. **Pepper** — pelo conjunto de sensores, capacidade de expressividade, experiência de interações ricas. É o benchmark mais próximo em termos de funcionalidades. Mesmo que não se use o Pepper, ele pode orientar decisões de design técnico e interação.
+
+2. **NAO** — como alternativa mais acessível, adaptável, excelente para demonstrar interações técnicas + comportamentais em contextos menores ou com menos recursos, ou como base de comparação de custo-benefício.
+
+3. **Robôs de evento / plataformas performáticas** — úteis para inspiração em narrativa, estética, ritmo, engajamento, mas menos como modelo técnico completo.
+
+---
+
+### Conclusão recomendada para relatório
+
+O Micromouse IHR não encontra exatamente um concorrente que combine **mobilidade diferencial, interpretação de gestos da plateia via câmera global, processamento em tempo real, microfone para estímulos sonoros, identidade sonora de “rato”**, tudo junto, de forma compacta e educativa.
+
+Portanto, para posicionamento:
+
+* Podemos usar Pepper e NAO como referências de funcionalidades a serem copiadas ou adaptadas, observando quais características são mais viáveis tecnicamente e financeiramente.
+* Focar no diferencial: ser mais compacto, mais responsivo em gestos de plateia, ter identidade sonora, demonstrar navegação dinâmica – isso pode nos destacar.
+* Avaliar custos de sensores, reconhecimento de gestos, microfones de qualidade vs simplicidade
+
+[1]: https://www.wevolver.com/specs/softbank-robotics-pepper?utm_source=chatgpt.com "SoftBank Robotics - Pepper"
+[2]: https://provenrobotics.ai/nao-robot-uses/?utm_source=chatgpt.com "NAO Robot Uses: 7 Surprising Applications"
+[3]: https://us.softbankrobotics.com/nao?utm_source=chatgpt.com "NAO: Personal Robot Teaching Assistant"
+
 ## Design
 
 - Pense nas características de Affordances do seu robô. Que tipo de acessibilidades devem ser consideradas dentro do seu projeto?
