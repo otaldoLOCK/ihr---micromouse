@@ -466,16 +466,67 @@ Portanto, para posicionamento:
 
 ## Design
 
-- Pense nas características de Affordances do seu robô. Que tipo de acessibilidades devem ser consideradas dentro do seu projeto?
-- Discuta o papel das expectativas do usuário no projeto de um robô. Qual a importância e pontos a serem considerados se você quiser vender esse robô  seu robô?
-- O seu robô tem um padrão com mais ou menos características antropomórficas? Qual padrão é mais aceito pela sociedade dentro do projeto que você está desenvolvendo?
-- Quais o design mais apropriado para o robô deste projeto? Modele o seu robô com desenhos de formas primitivas (caixas, cilindros, esferas)
+1. Características de Affordances do Robô
 
-<!-- ![Partes do robô](partes_do_robo.png) -->
-<!-- ![Robô](robo.png) -->
-<img alt="Partes do robô" src="partes_do_robo.png" height="200"/>
-<img alt="Robô" src="robo.png" height="200"/>
+Como o robô tem foco em entretenimento e exposição, além de seguir as regras de navegação autônoma da competição IEEE Micromouse, ele precisa incluir características que facilitem a interação com humanos:
 
+Feedback visual e sonoro: Uso de LEDs, telas coloridas ou sons interativos (como beeps, falas ou efeitos) para indicar o que o robô está fazendo ou como está respondendo aos comandos do público. Isso torna a experiência mais intuitiva e imersiva.
+
+Botões físicos ou interface por voz: Affordances como botões grandes, de fácil acesso, ou até mesmo comando por voz ou gestos simples (se implementado) tornam o robô mais acessível para a plateia interagir sem conhecimento técnico.
+
+Formas reconhecíveis: Partes visuais que indicam claramente a “frente” do robô ou seus sensores, para que o público possa compreender facilmente para onde ele vai ou o que está “vendo”.
+
+Segurança e mobilidade: Como o robô vai estar em ambientes com pessoas ao redor, ele precisa se mover suavemente e com sensores que evitem colisões com humanos. Affordances nesse caso incluem para-choques macios, frenagem automática e alertas visuais.
+
+2. Expectativas do Usuário no Projeto de um Robô de Entretenimento
+
+O robô, agora com foco em interação e apresentação ao público, precisa atender a diferentes expectativas em relação a um robô puramente técnico:
+
+Aparência simpática e amigável: O público espera um robô que não seja apenas funcional, mas que também desperte empatia e curiosidade. Um design lúdico, com cores vibrantes e elementos visuais simpáticos, ajuda nesse sentido.
+
+Interatividade em tempo real: O robô deve reagir aos comandos da plateia e do apresentador com rapidez e clareza. Isso pode incluir movimentos, sons, frases programadas ou até pequenas danças ou acenos.
+
+Entretenimento e aprendizado: Além de impressionar pela tecnologia de navegação (como a encontrada nas competições Micromouse), o robô deve entreter e ensinar. Pode-se incluir explicações divertidas de como ele funciona, enquanto ele se move pelo labirinto.
+
+Confiabilidade ao vivo: Em eventos públicos, falhas podem comprometer a experiência. Por isso, o robô precisa ser robusto, com programação à prova de erros comuns, e oferecer uma boa autonomia de bateria para apresentações prolongadas.
+
+Facilidade de transporte e montagem: Para exposições, o robô deve ser fácil de levar e configurar, com peças modulares, encaixes simples e interface de inicialização rápida.
+
+3. Padrão Antropomórfico no Robô de Exposição
+
+Neste caso, o robô não possui características antropomórficas, já que o objetivo é manter o design padrão da competição:
+
+Movimentos expressivos: Mesmo sendo um robô de rodinhas, ele pode “girar” de forma animada ou emitir sons engraçados, imitando comportamentos de ratos.
+
+Aceitação pela sociedade: Em ambientes de exposição, o público tende a aceitar melhor robôs com aparência amigável, mesmo que não tenham braços ou pernas. Uma forma "fofa" ou "divertida" costuma gerar mais engajamento do que um design técnico e frio.
+
+4. Design Apropriado para o Robô de Entretenimento
+
+Para o design, utilizamos formas primitivas (caixas, cilindros, esferas) que facilitam tanto a funcionalidade quanto o apelo visual:
+
+Modelagem com formas primitivas:
+
+Base:
+
+Caixa retangular baixa e larga, que garante estabilidade. Pode ter cantos arredondados para um visual mais amigável.
+
+Cor vibrante, como azul, laranja ou amarelo.
+
+Rodas:
+
+Quatro cilindros laterais grandes (rodas motrizes). Rodas podem ser decoradas com “pneus coloridos” ou capas temáticas.
+
+Sensores:
+
+Pequenos cilindros nas laterais e frente, visíveis, para o público identificar que o robô "vê" o ambiente.
+
+Alto-falante / som:
+
+Embutido na base ou na parte superior, permitindo falas ou sons sincronizados com os movimentos.
+
+<img width="456" height="240" alt="Image" src="https://github.com/user-attachments/assets/bf348535-81cb-4fe7-a14e-7e6562bc0589" />
+
+<img width="410" height="354" alt="Image" src="https://github.com/user-attachments/assets/531fddf0-27ca-4ec3-91a1-82c284b5ce65" />
 ## Ações do robô
 
 - Para cada ação:
