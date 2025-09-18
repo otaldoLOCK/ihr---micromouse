@@ -41,15 +41,15 @@ Para os usuários, a experiência oferecida deve ser de curiosidade, engajamento
 
 *Persona Primária – Integrante da Plateia*
 
-*Nome:* Lucas Andrade
+**Nome:** Lucas Andrade
 
-*Idade:* 19 anos
+**Idade:** 19 anos
 
-*Ocupação:* Estudante do 1º ano de Engenharia Mecatrônica
+**Ocupação:** Estudante do 1º ano de Engenharia Mecatrônica
 
-*Local:* São Paulo – SP
+**Local:** São Paulo – SP
 
-*Perfil:* Jovem curioso, entusiasmado por tecnologia e ciência, gosta de descobrir como as coisas funcionam. Costuma ir a feiras, workshops e apresentações ligadas a inovação e robótica. Está sempre com o celular na mão para registrar e compartilhar momentos interessantes.
+**Perfil:** Jovem curioso, entusiasmado por tecnologia e ciência, gosta de descobrir como as coisas funcionam. Costuma ir a feiras, workshops e apresentações ligadas a inovação e robótica. Está sempre com o celular na mão para registrar e compartilhar momentos interessantes.
 
 *O que o usuário vê*
 
@@ -98,11 +98,15 @@ Para os usuários, a experiência oferecida deve ser de curiosidade, engajamento
 
 *Persona Primária - Apresentador*
 
-Nome fictício: Marina Souza
-Idade: 24 anos
-Ocupação: Estudante de Pós-Graduação / Integrante da equipe de robótica (responsável pela apresentação e demonstração)
-Local: São Bernardo do Campo – SP
-Perfil: Comunicadora curiosa e técnica; gosta de ensinar e de transformar conceitos complexos em demonstrações interessantes. Tem experiência em workshops e apresentações acadêmicas, mas ainda sente certo nervosismo com imprevistos técnicos.
+**Nome:** Marina Souza
+
+**Idade:** 24 anos
+
+**Ocupação:** Estudante de Pós-Graduação / Integrante da equipe de robótica (responsável pela apresentação e demonstração)
+
+**Local:** São Bernardo do Campo – SP
+
+**Perfil:** Comunicadora curiosa e técnica; gosta de ensinar e de transformar conceitos complexos em demonstrações interessantes. Tem experiência em workshops e apresentações acadêmicas, mas ainda sente certo nervosismo com imprevistos técnicos.
 
 *O que o usuário vê*
 
@@ -188,9 +192,6 @@ Com esses elementos, o robô consegue realizar sua função de forma autônoma e
 
 # Jornada de usuário — Micromouse IHR
 
-> Versão formatada para GitHub (trecho solicitado)
-
----
 
 ## 1) Preparação / Configuração (pré-evento)
 
@@ -214,7 +215,6 @@ Com esses elementos, o robô consegue realizar sua função de forma autônoma e
 * **Verbal:** comunicação interna da equipe (“calibrei”, “go”).
 * **Importante:** registrar modo fallback (demo/manual) ativo.
 
----
 
 ## 2) Abertura / Introdução (primeiro contato)
 
@@ -240,8 +240,6 @@ Com esses elementos, o robô consegue realizar sua função de forma autônoma e
 **Resultado esperado**
 
 * Primeiro reconhecimento → robô responde com movimento curto + som + LED.
-
----
 
 ## 3) Convite à interação (instruções / engajamento inicial)
 
@@ -269,7 +267,6 @@ Com esses elementos, o robô consegue realizar sua função de forma autônoma e
 
 * Caso a câmera não detecte bem (p.ex. pouca luz), Marina aciona modo manual: botão no controle concede comando direto.
 
----
 
 ## 4) Loop de interação (ciclo contínuo)
 
@@ -300,7 +297,6 @@ Com esses elementos, o robô consegue realizar sua função de forma autônoma e
 
 * Ruído intenso → priorizar detecção de gestos visuais; telão mostra aviso “modo visual ativo”.
 
----
 
 ## 5) Clímax demonstrativo (sequência combinada)
 
@@ -328,7 +324,6 @@ Com esses elementos, o robô consegue realizar sua função de forma autônoma e
 
 * Plano B: exibir gravação da sequência no telão e explicar tecnicamente por que a falha ocorreu.
 
----
 
 ## 6) Encerramento (despedida / call-to-action)
 
@@ -347,8 +342,6 @@ Com esses elementos, o robô consegue realizar sua função de forma autônoma e
 * **Verbal:** agradecimentos e instruções para o pós-evento.
 * **Não-verbal:** aplausos; selfies com o robô.
 * **Espacial:** robô é levado para área controlada onde o público pode testar sob supervisão.
-
----
 
 ## 7) Pós-evento (estações / análise)
 
