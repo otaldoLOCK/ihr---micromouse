@@ -42,9 +42,13 @@ Para os usuários, a experiência oferecida deve ser de curiosidade, engajamento
 *Persona Primária – Integrante da Plateia*
 
 *Nome:* Lucas Andrade
+
 *Idade:* 19 anos
+
 *Ocupação:* Estudante do 1º ano de Engenharia Mecatrônica
+
 *Local:* São Paulo – SP
+
 *Perfil:* Jovem curioso, entusiasmado por tecnologia e ciência, gosta de descobrir como as coisas funcionam. Costuma ir a feiras, workshops e apresentações ligadas a inovação e robótica. Está sempre com o celular na mão para registrar e compartilhar momentos interessantes.
 
 *O que o usuário vê*
