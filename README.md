@@ -557,10 +557,6 @@ Embutido na base ou na parte superior, permitindo falas ou sons sincronizados co
   - Determine os pré-requisitos para que a interação aconteça
   - Determine espera de resposta emocional do usúario quando a interação é finalizada
 
-# Interações do robô — Micromouse IHR (formato GitHub)
-
-Abaixo estão agrupadas as **interações do robô** por modalidade (Espacial, Verbal, Não-verbal). Para cada interação: **Descrição**, **Pré-requisitos** e **Resposta emocional esperada** do usuário. Pode colar direto no `README.md`.
-
 ---
 
 ## Espacial
