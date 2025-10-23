@@ -557,6 +557,129 @@ Embutido na base ou na parte superior, permitindo falas ou sons sincronizados co
   - Determine os pré-requisitos para que a interação aconteça
   - Determine espera de resposta emocional do usúario quando a interação é finalizada
 
+# Interações do robô — Micromouse IHR (formato GitHub)
+
+Abaixo estão agrupadas as **interações do robô** por modalidade (Espacial, Verbal, Não-verbal). Para cada interação: **Descrição**, **Pré-requisitos** e **Resposta emocional esperada** do usuário. Pode colar direto no `README.md`.
+
+---
+
+## Espacial
+
+### 1. Aproximação controlada à plateia
+
+**Descrição:** o robô desloca-se da doca até a *zona de interação* quando um gesto (ex.: palmas) é detectado. Move-se devagar ao se aproximar para reduzir ansiedade.
+**Pré-requisitos:** câmera detecta gesto válido; mapa de navegação local carregado; zonas demarcadas (segurança/interação); sensores de proximidade ativos; velocidade máxima limitada.
+**Resposta emocional esperada:** curiosidade → sorriso → sensação de segurança (por movimento lento).
+
+---
+
+### 2. Circulação entre estações (zona A → zona B)
+
+**Descrição:** o robô percorre pontos pré-definidos no palco para garantir visibilidade para diferentes setores da plateia.
+**Pré-requisitos:** planejamento de rota pré-carregado; detecção de obstáculos em tempo real; iluminação suficiente para visão.
+**Resposta emocional esperada:** envolvimento coletivo; sensação de “o robô me viu” em setores mais distantes.
+
+---
+
+### 3. Recuo para doca / retorno seguro
+
+**Descrição:** ao encerrar, erro crítico ou baixa bateria o robô retorna automaticamente à base/doca.
+**Pré-requisitos:** sinal de bateria; rotina de emergência ativa; rota de retorno mapeada; sinal sonoro/visual pré-aviso.
+**Resposta emocional esperada:** confiança (quando executado suavemente) ou frustração se acompanhado de falha visível; alívio se explicado pelo apresentador.
+
+---
+
+### 4. Manobra de evasão de obstáculo (detecção e desvio)
+
+**Descrição:** ao identificar um obstáculo (pessoa, objeto) o robô desacelera e traça rota alternativa evitando contato.
+**Pré-requisitos:** sensores de proximidade (ultrassom/IR/LiDAR ou visão) funcionando; baixa latência no controle motriz.
+**Resposta emocional esperada:** tranquilidade e admiração pela “inteligência” do robô; sensação de segurança.
+
+---
+
+### 5. Aproximação para selfie / interação próxima (modo supervisionado)
+
+**Descrição:** em modo pós-evento ou estação prática, o robô aproxima-se até ponto seguro para fotos controladas.
+**Pré-requisitos:** modo supervisionado ativado; limite de velocidade reduzido; barreira/operador presente; autorização do público.
+**Resposta emocional esperada:** empolgação e satisfação; desejo de registrar (selfie/short video).
+
+---
+
+## Verbal
+
+### 1. Resposta a comando de voz simples (palavra-chave)
+
+**Descrição:** robô reconhece palavra-chave (“Micromouse”, “venha”) e responde verbalmente com frase curta ou som característico.
+**Pré-requisitos:** microfone calibrado; ASR (reconhecimento de fala) com dicionário reduzido; nível de ruído ambiente aceitável.
+**Resposta emocional esperada:** surpresa positiva → validação (“fun fact: o robô me ouviu”) → engajamento.
+
+---
+
+### 2. Voz de confirmação/feedback
+
+**Descrição:** após receber comando, o robô emite um som de rato estilizado.
+**Pré-requisitos:** arquivos de áudio prontos; latência baixa entre detecção e reprodução.
+**Resposta emocional esperada:** sensação de interação direta; redução de incerteza; diversão.
+
+---
+
+### 3. Chamado por nome / reação a frase do público
+
+**Descrição:** ao ouvir o público chamando (“Micromouse!”), o robô vira, emite som e acende LED, sinalizando que “reconheceu”.
+**Pré-requisitos:** múltiplos microfones para supressão de ruído; threshold de confiança configurado.
+**Resposta emocional esperada:** sensação de conexão direta; surpresa e prazer.
+
+---
+
+### 4. "Mensagem de erro"
+
+**Descrição:** em caso de erro, o robô fala toca um áudio apropriado para indicá-lo.
+**Pré-requisitos:** detecção de falha diagnosticada; áudio de mensagem pronto; mecanismo de priorização de mensagens de segurança.
+**Resposta emocional esperada:** confiança se acompanhado de explicação pelo apresentador; menor frustração do público.
+
+---
+
+## Não-verbal
+
+### 1. Padrões de LED (status)
+
+**Descrição:** uso de cores/pulsos para indicar estados: pronto (verde), reconhecendo (azul pulsante), erro (vermelho), executando (amarelo).
+**Pré-requisitos:** LEDs visíveis; legenda no telão ou explicação prévia; níveis de luminosidade do ambiente calibrados.
+**Resposta emocional esperada:** entendimento rápido do estado do robô; sensação de previsibilidade e conforto.
+
+---
+
+### 2. Curvatura/tempo de movimento (expressividade por velocidade)
+
+**Descrição:** movimentos lentos/falados transmitem cautela; movimentos rápidos transmitem entusiasmo ou urgência.
+**Pré-requisitos:** controle de velocidade configurável; perfil de aceleração seguro; superfície de piso adequada.
+**Resposta emocional esperada:** empatia (o público atribui intenção ao robô); maior envolvimento emocional.
+
+---
+
+### 3. “Olhar” dirigido via LED (foco de atenção)
+
+**Descrição:** o robô vira a estrutura e/ou aciona LED orientados para indicar que “está olhando” para uma pessoa/área detectada.
+**Pré-requisitos:** eixo de rotação disponível ou LED direcional; detecção de alvo; sincronização entre percepção e gesto.
+**Resposta emocional esperada:** sensação de ser notado; surpresa positiva; reforço de presença social.
+
+---
+
+### 4. Sequência coreográfica de movimento + luz (performativa)
+
+**Descrição:** combinação de rota curta, mudanças de velocidade e padrão de LEDs para “dança” ou “truque” durante clímax.
+**Pré-requisitos:** planejamento de trajectória; bateria suficiente; sincronização de atuação sonora/LED; espaço livre.
+**Resposta emocional esperada:** diversão, êxtase coletivo, registro (filmagem/compartilhamento).
+
+---
+
+### 5. Parada expressiva (sinal de atenção)
+
+**Descrição:** o robô interrompe o movimento abruptamente por breve instante (p.ex. ao detectar múltiplos gestos) e pisca LED para indicar atenção.
+**Pré-requisitos:** detecção de condição de atenção; controle seguro de frenagem;
+**Resposta emocional esperada:** expectativa aumentada → curiosidade; ordenamento do comportamento do público
+
+
 [^1]: Fonte: Adaptado de <https://hazeshift.com.br/mapa-de-empatia/>
 
 <!-- TODOs:
