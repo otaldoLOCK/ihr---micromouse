@@ -523,6 +523,7 @@ Embutido na base ou na parte superior, permitindo falas ou sons sincronizados co
 <img width="456" height="240" alt="Image" src="https://github.com/user-attachments/assets/bf348535-81cb-4fe7-a14e-7e6562bc0589" />
 
 <img width="410" height="354" alt="Image" src="https://github.com/user-attachments/assets/531fddf0-27ca-4ec3-91a1-82c284b5ce65" />
+
 ## Ações do robô
 
 - Para cada ação:
@@ -670,6 +671,12 @@ Embutido na base ou na parte superior, permitindo falas ou sons sincronizados co
 **Descrição:** o robô interrompe o movimento abruptamente por breve instante (p.ex. ao detectar múltiplos gestos) e pisca LED para indicar atenção.
 **Pré-requisitos:** detecção de condição de atenção; controle seguro de frenagem;
 **Resposta emocional esperada:** expectativa aumentada → curiosidade; ordenamento do comportamento do público
+
+---
+
+### MoLIC
+
+![MoLIC](MoLIC_Micromouse_IHR.png)
 
 
 [^1]: Fonte: Adaptado de <https://hazeshift.com.br/mapa-de-empatia/>
