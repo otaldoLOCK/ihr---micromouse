@@ -35,7 +35,7 @@ O objetivo central do robô é: proporcionar uma experiência interativa e lúdi
 Para os usuários, a experiência oferecida deve ser de curiosidade, engajamento e aprendizado prático, despertando interesse em tecnologia e ciência através de uma interação divertida, acessível e memorável.
 ## Publico Alvo
 
-- Determine o seu público alvo: Plateia e Apresentador 
+- Plateia e Apresentador
 
 ### Personas
 
