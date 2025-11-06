@@ -676,7 +676,6 @@ Embutido na base ou na parte superior, permitindo falas ou sons sincronizados co
 
 ### MoLIC
 
-![MoLIC](MoLIC_Micromouse_IHR.png)
 
 
 [^1]: Fonte: Adaptado de <https://hazeshift.com.br/mapa-de-empatia/>
