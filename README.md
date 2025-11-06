@@ -371,8 +371,6 @@ Com esses elementos, o robô consegue realizar sua função de forma autônoma e
   - Existe plataforma diferente quanto ao serviço, mas que atenda esse mercado? Se sim: Quais os pontos positivos? Quais os pontos negativos?
   - Quais plataformas sua equipe acha mais interessantes? Qual a justificativa?
 
-Aqui está uma versão pronta de relatório para colocar no GitHub, com estilo formal, seção “Análise de concorrência”. Você pode colar direto no `README.md` ou em um documento de relatório.
-
 ---
 
 ## Análise de Concorrência
@@ -449,8 +447,6 @@ Com base nos objetivos do projeto — interação com plateia via gestos/sons, m
 3. **Robôs de evento / plataformas performáticas** — úteis para inspiração em narrativa, estética, ritmo, engajamento, mas menos como modelo técnico completo.
 
 ---
-
-### Conclusão recomendada para relatório
 
 O Micromouse IHR não encontra exatamente um concorrente que combine **mobilidade diferencial, interpretação de gestos da plateia via câmera global, processamento em tempo real, microfone para estímulos sonoros, identidade sonora de “rato”**, tudo junto, de forma compacta e educativa.
 
