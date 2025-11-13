@@ -1,4 +1,4 @@
-# **Nome do Robô:** Aplicação do robô
+# **Micromouse:** Robô de Entretenimento
 
 Trabalho de Interação Humano-Robô (IHR) apresentado ao Centro Universitário [FEI](https://portal.fei.edu.br/), como parte dos requisitos necessários para aprovação na disciplina de Interação Humano-Robô (IHR) (CCR230) do curso de Engenharia de Robôs, orientado pelo Prof. Dr. [Fagner de Assis Moura Pimentel](https://github.com/fagnerpimentel).
 
@@ -10,9 +10,6 @@ Trabalho de Interação Humano-Robô (IHR) apresentado ao Centro Universitário 
 - Enzo Rodrigues Tofoli
 - Gustavo Rodrigues Santos
 - Matheus Kenji 
-
-## Pensamentos - plateia - personas (apresentadores e plateia) - vai ter uma camera global e vai ter microfone para comunicação verbal (barulho de rato?)
-
 
 ## Resumo
 
@@ -154,15 +151,6 @@ Para os usuários, a experiência oferecida deve ser de curiosidade, engajamento
 
 ![Mapa de empatia](empatia.png)
 
-- Determine o mapa de empatia[^1] de pelo menos uma persona primária e uma sercundária.
-  - O que o usuário vê: aqui estamos falando do ambiente visual em que o usuário se encontra. Ou seja, o que ele efetivamente enxerga, as pessoas e objetos que estão ao seu redor. Isso ajuda a entender o contexto em que o usuário está inserido e as influências visuais que está recebendo.
-  - O que o usuário ouve: neste quadrante, buscamos entender o que o usuário está ouvindo, os sons que o cercam e como eles influenciam suas ações.
-  - O que o usuário diz e faz: aqui consideramos ações e comportamentos que o usuário apresenta durante sua interação com o robô.
-  - O que o usuário pensa e sente: neste quadrante, buscamos entender os pensamentos, sentimentos, emoções e percepções que o usuário tem em relação robô. Quais expectativas o usuário cria sobre o robô?
-  Que tipo de robô mais agrada essa persona?
-  - Dores: quando falamos sobre dores do usuário, estamos fazendo referência a quaisquer obstáculos, necessidades ou frustrações que o usuário possa experimentar ao tentar realizar uma tarefa ou alcançar um objetivo. Isso inclui, por exemplo, problemas de usabilidade, dificuldades de acesso ou outros desafios que podem afetar a experiência do usuário.
-  - Ganhos: nesse caso estamos falando de quaisquer benefícios ou recompensas que o usuário possa experimentar ao utilizar o robô. Isso pode incluir economia de tempo ou facilidade de uso, por exemplo. Que desejos do usuário o robô satisfaz?
-
 ## Contexto de uso
 
 O robô será utilizado em ambientes de apresentação e demonstração, como feiras de ciência, eventos acadêmicos, salas de aula e atividades de divulgação tecnológica. Nesses espaços, a interação entre pessoas e robôs desempenha um papel fundamental para despertar a curiosidade do público e aproximar conceitos complexos de robótica de forma prática e divertida. O ambiente é projetado de maneira controlada, geralmente com um espaço delimitado semelhante a um pequeno labirinto ou arena, onde o Micromouse pode se movimentar com segurança.
@@ -182,16 +170,6 @@ Condições de iluminação e captação sonora, garantindo que a câmera global
 Com esses elementos, o robô consegue realizar sua função de forma autônoma e interativa, proporcionando ao público uma experiência segura e envolvente.
 
 ## Jornada do usuário
-
-- Criar uma narrativa para o o seu robô e o usuário.
-- Determine o passo a passo que o usuário realiza desde o primeiro até o último encontro com robô na realização da tarefa.
-- O que está acontecendo com o ambiente quando o robô está interagindo com o usuário?
-  - Descreva o que acontece ou pode acontecer passo a passo
-  - Como a tarefa começa? Como a tarefa evolui? Como a tarefa termina?
-- Enfatize todos os momentos em que acontece uma interação verbal, não-verbal e espacial.
-
-# Jornada de usuário — Micromouse IHR
-
 
 ## 1) Preparação / Configuração (pré-evento)
 
@@ -360,16 +338,6 @@ Com esses elementos, o robô consegue realizar sua função de forma autônoma e
 * **Verbal:** conversas mais longas e técnicas; recrutamento/contato.
 * **Não-verbal:** manipulação direta do robô (em área segura).
 * **Espacial:** área com barreiras baixas para controle.
-
-
-## Análise de concorrência
-
-- Pesquise robôs existentes atualmente que possam fazer a tarefa deste projeto.
-- Selecione pelo menos 3 robôs diferentes que podem fazer essa tarefa.
-- Em relação aos concorrentes, respondam as seguintes perguntas?
-  - Existe plataforma similar que atende o mesmo mercado e funcionalidades? Se sim: Quais os pontos positivos? Quais os pontos negativos?
-  - Existe plataforma diferente quanto ao serviço, mas que atenda esse mercado? Se sim: Quais os pontos positivos? Quais os pontos negativos?
-  - Quais plataformas sua equipe acha mais interessantes? Qual a justificativa?
 
 ---
 
