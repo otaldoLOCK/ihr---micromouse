@@ -491,6 +491,8 @@ Embutido na base ou na parte superior, permitindo falas ou sons sincronizados co
 
 <img width="410" height="354" alt="Image" src="https://github.com/user-attachments/assets/531fddf0-27ca-4ec3-91a1-82c284b5ce65" />
 
+![Micromouse](Micromouse.jpg)
+
 ## Ações do robô
 
 ---
