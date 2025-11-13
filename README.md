@@ -213,7 +213,7 @@ Com esses elementos, o robô consegue realizar sua função de forma autônoma e
 
 * **Verbal:** Marina diz “Aplaudam ou acenem para chamar o robô!”.
 * **Não-verbal:** plateia faz palmas/acenos; a câmera detecta e destaca quem gesticulou.
-* **Espacial:** o robô inicia na doca; quando um gesto é identificado, ele calcula um ponto alvo na área de atuação e realiza aproximação segura.
+* **Espacial:** quando um gesto é identificado, ele calcula um ponto alvo na área de atuação e realiza aproximação segura.
 
 **Resultado esperado**
 
@@ -264,7 +264,7 @@ Com esses elementos, o robô consegue realizar sua função de forma autônoma e
 **Interações**
 
 * **Verbal:** público comenta e faz perguntas entre ciclos; apresentador contextualiza tecnicamente por breves blocos.
-* **Não-verbal:** mudança de postura do público (mais perto/mais distante), filmagens.
+* **Não-verbal:** mudança de postura do público (mais perto/mais distante), filmagens; câmera detecta expressões da plateia.
 * **Espacial:** robô navega entre pontos de interesse (zona A → zona B), mantendo rota segura e evitando bordas/obstáculos.
 
 **Métricas visíveis**
@@ -276,26 +276,25 @@ Com esses elementos, o robô consegue realizar sua função de forma autônoma e
 * Ruído intenso → priorizar detecção de gestos visuais; telão mostra aviso “modo visual ativo”.
 
 
-## 5) Clímax demonstrativo (sequência combinada)
+## 5) Clímax demonstrativo (sequência pré-definida)
 
 **Propósito**
 
-* Entregar uma sequência coreografada que une múltiplas entradas da plateia e mostra robustez (p.ex. coreografia de 4 passos acionada por 4 palmas de diferentes locais).
+* Entregar uma sequência coreografada que demonstra as capacidades motoras e expressivas do robô.
 
 **Ambiente**
 
-* Obstáculos temporários (blocos leves) montados para mostrar desvio/curva precisa; telão faz contagem regressiva.
+* Obstáculos temporários (blocos leves) montados para mostrar desvio/curva precisa; um palco para realizar interações com a plateia.
 
 **Passos**
 
-1. Marina solicita colaboração coletiva (ex.: “em 3… 2… 1… palmas!”).
-2. A câmera detecta multiplicidade de entradas; o módulo combina sinais (votos) e decide comportamento especial.
-3. Robô executa sequência (movimentos precisos + som característico + LED em padrão).
+1. Marina ativa a sequência coreografada do micromouse.
+2. Robô executa sequência (movimentos precisos + som característico + LED em padrão).
 
 **Interações**
 
-* **Verbal:** contagem regressiva cria expectativa; Marina descreve o que vai acontecer.
-* **Não-verbal:** plateia participa em sincronia; muitos gravam.
+* **Verbal:** Marina descreve o que vai acontecer.
+* **Não-verbal:** Plateia assiste com atenção grava as ações do robô.
 * **Espacial:** robô navega por mini-labirinto/coreografia evitando toque humano.
 
 **Se ocorrer falha**
@@ -550,7 +549,7 @@ Embutido na base ou na parte superior, permitindo falas ou sons sincronizados co
 
 ### 2. Voz de confirmação/feedback
 
-**Descrição:** após receber comando, o robô emite um som de rato estilizado.
+**Descrição:** após receber comando, o robô emite um som de rato estilizado, com diferentes tons e duração de acordo com a ação a ser executada.
 **Pré-requisitos:** arquivos de áudio prontos; latência baixa entre detecção e reprodução.
 **Resposta emocional esperada:** sensação de interação direta; redução de incerteza; diversão.
 
@@ -558,7 +557,7 @@ Embutido na base ou na parte superior, permitindo falas ou sons sincronizados co
 
 ### 3. Chamado por nome / reação a frase do público
 
-**Descrição:** ao ouvir o público chamando (“Micromouse!”), o robô vira, emite som e acende LED, sinalizando que “reconheceu”.
+**Descrição:** ao ouvir o público chamando (“Micromouse!”), o robô vira, emite som curto e fino, e acende LED azul, sinalizando que “reconheceu”.
 **Pré-requisitos:** múltiplos microfones para supressão de ruído; threshold de confiança configurado.
 **Resposta emocional esperada:** sensação de conexão direta; surpresa e prazer.
 
@@ -608,7 +607,7 @@ Embutido na base ou na parte superior, permitindo falas ou sons sincronizados co
 
 ### 5. Parada expressiva (sinal de atenção)
 
-**Descrição:** o robô interrompe o movimento abruptamente por breve instante (p.ex. ao detectar múltiplos gestos) e pisca LED para indicar atenção.
+**Descrição:** o robô interrompe o movimento abruptamente por breve instante (p.ex. ao detectar múltiplos gestos) emite um som grave e longo e pisca LED azul para indicar atenção.
 **Pré-requisitos:** detecção de condição de atenção; controle seguro de frenagem;
 **Resposta emocional esperada:** expectativa aumentada → curiosidade; ordenamento do comportamento do público
 
